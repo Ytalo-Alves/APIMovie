@@ -1,0 +1,11 @@
+
+### @name createUser
+GET http://localhost:3333/users
+Content-Type: application/json
+
+{
+    "name": "ytalo",
+    "email": "ytalo@gmail.com",
+    "password": "123456"
+}
+
